@@ -5,9 +5,9 @@ import Main from "./pages/Main";
 function App() {
   return (
     <Routes>
-      <Route path="/cyril-portfolio/landing" element={<HomePage />} />
+      <Route path="/cyril-portfolio" element={<HomePage />} />
       <Route path="/main" element={<Main />} />
-      <Route path="*" element={<Navigate to="/cyril-portfolio/landing" replace />} />
+      <Route path="*" element={<Navigate to="/cyril-portfolio" replace />} />
     </Routes>
   );
 }
