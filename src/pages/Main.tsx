@@ -6,7 +6,7 @@ function Main() {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate("/*");
+    navigate("/");
   };
 
   return (
