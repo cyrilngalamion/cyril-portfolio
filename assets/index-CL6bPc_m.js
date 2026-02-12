@@ -26,4 +26,4 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
       group-hover:drop-shadow-[0_10px_20px_rgba(0,0,255,0.5)]\r
       active:translate-y-0\r
       active:scale-95\r
-    `})})]})}function wv(){return F.jsxs(uv,{children:[F.jsx(li,{path:"/cyril-portfolio/landing",element:F.jsx(Qv,{})}),F.jsx(li,{path:"/main",element:F.jsx(Kv,{})}),F.jsx(li,{path:"*",element:F.jsx(ev,{to:"/cyril-portfolio/landing",replace:!0})})]})}iy.createRoot(document.getElementById("root")).render(F.jsx(D.StrictMode,{children:F.jsx(Mv,{children:F.jsx(wv,{})})}));
+    `})})]})}function wv(){return F.jsxs(uv,{children:[F.jsx(li,{path:"/cyril-portfolio",element:F.jsx(Qv,{})}),F.jsx(li,{path:"/main",element:F.jsx(Kv,{})}),F.jsx(li,{path:"*",element:F.jsx(ev,{to:"/cyril-portfolio",replace:!0})})]})}iy.createRoot(document.getElementById("root")).render(F.jsx(D.StrictMode,{children:F.jsx(Mv,{children:F.jsx(wv,{})})}));
