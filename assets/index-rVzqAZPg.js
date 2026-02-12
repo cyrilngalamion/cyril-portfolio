@@ -17,7 +17,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
       group-hover:drop-shadow-[0_10px_20px_rgba(0,0,255,0.5)]\r
       active:translate-y-0\r
       active:scale-95\r
-    `})})]})]}),F.jsx(Xv,{})]})}const Zv="/cyril-portfolio/assets/wolfe-B4DASnbw.jpg",Vv="/cyril-portfolio/assets/quitButton-Cq1UJwzA.png";function Kv(){const f=ii(),o=()=>{f("/*")};return F.jsxs("div",{className:"min-h-screen flex flex-col items-center justify-center bg-[#043247]",children:[F.jsx("h1",{className:"text-5xl font-extrabold mb-2 text-white",children:"Hello"}),F.jsx("img",{src:Zv,alt:"Sample",className:"w-80 sm:w-56 md:w-72 lg:w-80 h-auto rounded-xl shadow-lg border-3 border-white"}),F.jsx("div",{onClick:o,className:"cursor-pointer flex justify-center group mt-8",children:F.jsx("img",{src:Vv,alt:"Play button",className:`\r
+    `})})]})]}),F.jsx(Xv,{})]})}const Zv="/cyril-portfolio/assets/wolfe-B4DASnbw.jpg",Vv="/cyril-portfolio/assets/quitButton-Cq1UJwzA.png";function Kv(){const f=ii(),o=()=>{f("/")};return F.jsxs("div",{className:"min-h-screen flex flex-col items-center justify-center bg-[#043247]",children:[F.jsx("h1",{className:"text-5xl font-extrabold mb-2 text-white",children:"Hello"}),F.jsx("img",{src:Zv,alt:"Sample",className:"w-80 sm:w-56 md:w-72 lg:w-80 h-auto rounded-xl shadow-lg border-3 border-white"}),F.jsx("div",{onClick:o,className:"cursor-pointer flex justify-center group mt-8",children:F.jsx("img",{src:Vv,alt:"Play button",className:`\r
       w-40 sm:w-30 md:w-24 lg:w-38 xl:w-52 \r
       h-auto\r
       transition-transform duration-300 ease-in-out\r
@@ -26,4 +26,4 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
       group-hover:drop-shadow-[0_10px_20px_rgba(0,0,255,0.5)]\r
       active:translate-y-0\r
       active:scale-95\r
-    `})})]})}function wv(){return F.jsxs(uv,{children:[F.jsx(li,{path:"/",element:F.jsx(Qv,{})}),F.jsx(li,{path:"/main",element:F.jsx(Kv,{})}),F.jsx(li,{path:"*",element:F.jsx(ev,{to:"/",replace:!0})})]})}iy.createRoot(document.getElementById("root")).render(F.jsx(D.StrictMode,{children:F.jsx(Mv,{children:F.jsx(wv,{})})}));
+    `})})]})}function wv(){return F.jsxs(uv,{children:[F.jsx(li,{path:"/cyril-portfolio/landing",element:F.jsx(Qv,{})}),F.jsx(li,{path:"/main",element:F.jsx(Kv,{})}),F.jsx(li,{path:"*",element:F.jsx(ev,{to:"/cyril-portfolio/landing",replace:!0})})]})}iy.createRoot(document.getElementById("root")).render(F.jsx(D.StrictMode,{children:F.jsx(Mv,{children:F.jsx(wv,{})})}));
