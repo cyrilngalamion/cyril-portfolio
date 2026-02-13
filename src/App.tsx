@@ -9,10 +9,9 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/landing-page" replace />} />
+      <Route path="/" element={<LandingPage/>} />
 
-      <Route path="/landing-page" element={<LandingPage />} />
-      <Route path="/home" element={<Main />} />
+      <Route path="/main" element={<Main />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

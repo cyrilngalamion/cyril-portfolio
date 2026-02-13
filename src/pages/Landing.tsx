@@ -8,7 +8,7 @@ function HomePage() {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate("/home");
+    navigate("/main");
   };
 
   return (

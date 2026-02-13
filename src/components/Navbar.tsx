@@ -73,7 +73,7 @@ function NavBar() {
             >
               <button
                 onClick={() => {
-                  navigate("/landing-page");
+                  navigate("/");
                   setIsIconsVisible(false);
                 }}
                 className={`transition text-sm sm:text-base md:text-lg ${
@@ -92,7 +92,7 @@ function NavBar() {
 
               <button
                 onClick={() => {
-                  navigate("/home");
+                  navigate("/main");
                   setIsIconsVisible(false);
                 }}
                 className={`transition text-sm sm:text-base md:text-lg ${
@@ -111,7 +111,7 @@ function NavBar() {
 
               <button
                 onClick={() => {
-                  navigate("/");
+                  navigate("/projects");
                   setIsIconsVisible(false);
                 }}
                 className={`transition text-sm sm:text-base md:text-lg ${
@@ -154,7 +154,7 @@ function NavBar() {
                 setIsMenuOpen(false);
               }}
               className={`w-full flex items-center gap-3 px-4 font-headerfont py-3 text-sm transition-colors ${
-                isActive("/landing-page")
+                isActive("/")
                   ? "text-[#ffe822] bg-[#afb1a1]/10"
                   : "text-[#cfc1b1] hover:text-[#ffe822] hover:bg-[#afb1a1]/10"
               }`}
@@ -169,7 +169,7 @@ function NavBar() {
 
             <button
               onClick={() => {
-                navigate("/home");
+                navigate("/main");
                 setIsMenuOpen(false);
               }}
               className={`w-full flex items-center gap-3 font-headerfont px-4 py-3 text-sm transition-colors ${
