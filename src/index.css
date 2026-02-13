@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "MyCustomFont1";
+  src: url("./assets/fonts/Pixeltype.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyCustomFont2";
+  src: url("./assets/fonts/I-pixel-u.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MyCustomFont3";
+  src: url("./assets/fonts/ModernSans-Light.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-headerfont {
+  font-family: "MyCustomFont2", sans-serif;
+}
+
+.font-pafont {
+  font-family: "MyCustomFont1", sans-serif;
+}
+
+.font-senfont {
+  font-family: "MyCustomFont3", sans-serif;
+}

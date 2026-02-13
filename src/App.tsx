@@ -1,13 +1,20 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import Main from "./pages/Main";
+
+import LandingPage from "./pages/Landing";
+
+import Main from "./pages/Home";
+
+import Projects from "./pages/Projects";
 
 function App() {
   return (
     <Routes>
-      <Route path="/cyril-portfolio" element={<HomePage />} />
-      <Route path="/main" element={<Main />} />
-      <Route path="*" element={<Navigate to="/cyril-portfolio" replace />} />
+      <Route path="/" element={<Navigate to="/landing-page" replace />} />
+
+      <Route path="/landing-page" element={<LandingPage />} />
+      <Route path="/home" element={<Main />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 }
