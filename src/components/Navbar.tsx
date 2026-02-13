@@ -172,8 +172,8 @@ function NavBar() {
                 navigate("/main");
                 setIsMenuOpen(false);
               }}
-              className={`w-full flex items-center gap-3 font-headerfont px-4 py-3 text-sm transition-colors ${
-                isActive("/home")
+              className={`w-full flex items-center gap-3 px-4 font-headerfont py-3 text-sm transition-colors ${
+                isActive("/main")
                   ? "text-[#ffe822] bg-[#afb1a1]/10"
                   : "text-[#cfc1b1] hover:text-[#ffe822] hover:bg-[#afb1a1]/10"
               }`}
@@ -191,7 +191,7 @@ function NavBar() {
                 navigate("/projects");
                 setIsMenuOpen(false);
               }}
-              className={`w-full flex items-center gap-3 font-headerfont self-center px-4 py-1 text-sm transition-colors ${
+              className={`w-full flex items-center gap-3 font-headerfont self-center px-4 py-3 text-sm transition-colors ${
                 isActive("/projects")
                   ? "text-[#ffe822] bg-[#afb1a1]/10"
                   : "text-[#cfc1b1] hover:text-[#ffe822] hover:bg-[#afb1a1]/10"
