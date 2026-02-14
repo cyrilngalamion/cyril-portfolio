@@ -2,7 +2,7 @@ import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import CardOne from "../components/CardOne";
 import CardTwo from "../components/CardTwo";
-import CardThree from "../components/cardThree";
+import CardThree from "../components/MainCard";
 
 function Main() {
   return (

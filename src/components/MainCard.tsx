@@ -3,7 +3,7 @@ import Banner from "../assets/image/Banner.png";
 import Ficon from "../assets/image/fbicon.png";
 import Iicon from "../assets/image/igicon.png";
 import Gicon from "../assets/image/gmailicon.png";
-import SkillsDropdown from "./Skillsdropdown";
+import SkillsDropdown from "./CoreSkillsDropdown";
 
 function CardThree() {
   return (
