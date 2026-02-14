@@ -1,55 +1,61 @@
-import sampleImage from "../assets/image/baby-boy.jpg";
-import ButtonImg2 from "../assets/image/quitButton.png";
+import topGif from "../assets/image/monster_slam.gif";
+import ButtonImg from "../assets/image/Button.png";
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 
-function Main() {
+function HomePage() {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    navigate("/");
+    navigate("/main");
   };
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#043247]">
       <NavBar />
 
-      <div className="flex flex-col items-center justify-top mt-35 flex-1 px-4 text-center">
-        <h1 className="text-2xl lg:text-5xl font-headerfont font-extrabold text-[#fff3de] tracking-wider">
-          UNDER DEVELOPMENT!{" "}
-        </h1>
-        <h1 className="text-5xl font-headerfont text-red-600 font-extrabold">
-          GAME OVER
-        </h1>
-        <h6 className="text-xl font-headerfont text-yellow-400 font-extrabold mb-5">
-          SORRY :(
-        </h6>
-
+      {/* Main Content */}
+      <div className="flex flex-col items-center justify-top mt-25 flex-1 px-4 text-center">
+        {/* Top GIF */}
         <img
-          src={sampleImage}
-          alt="Sample"
-          className="w-80 sm:w-56 md:w-72 lg:w-80 h-auto rounded-xl shadow-lg border-3 border-[#fff3de]"
+          src={topGif}
+          alt="Top animation"
+          className="w-full max-w-50 sm:max-w-sm md:max-w-md lg:max-w-54 h-auto"
         />
 
-        {/* Button GIF */}
-        <div
-          onClick={handleButtonClick}
-          className="cursor-pointer flex justify-center group mt-8"
-        >
-          <img
-            src={ButtonImg2}
-            alt="Play button"
-            className="
-      w-40 sm:w-30 md:w-24 lg:w-38 xl:w-52 
+        {/* Text Section */}
+        <div className=" space-y-6">
+          <h1 className="">
+            <span className="block text-[#fff3de] font-headerfont text-xl sm:text-3xl md:text-4xl lg:text-4xl">
+              HELLO! WELCOME
+            </span>
+
+            <span className="block text-[#6df7b1] font-pafont text-sm sm:text-xl md:text-2xl lg:text-2xl tracking-wide">
+              I’m CYRIL, and this is where I turn ideas into functional and meaningful digital experiences.
+            </span>
+          </h1>
+
+          {/* Button GIF */}
+          <div
+            onClick={handleButtonClick}
+            className="cursor-pointer flex justify-center group mt-3"
+          >
+            <img
+              src={ButtonImg}
+              alt="Play button"
+              className="
+      w-40 sm:w-30 md:w-24 lg:w-38 xl:w-49 
       h-auto
       transition-transform duration-300 ease-in-out
       group-hover:-translate-y-2
       group-hover:scale-105
-      group-hover:drop-shadow-[0_10px_20px_rgba(255,0,100,0.5)]
+      group-hover:drop-shadow-[0_10px_20px_rgba(0,0,255,0.4)]
       active:translate-y-0
-      active:scale-95"
-          />
+      active:scale-95
+    "
+            />
+          </div>
         </div>
       </div>
 
@@ -58,4 +64,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default HomePage;
